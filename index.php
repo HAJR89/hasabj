@@ -42,7 +42,7 @@
     <h1 class="display-4">Manage your team &amp; everything with Daily Task</h1>
     <p class="lead">Unlock your potential, unleash your productivity, and experience the joy of progress with our powerful Daily Task.</p>
     <hr class="my-4">
-    <img src="todo.png" alt="To-Do Image" class="img-fluid">
+    <img src="img1.jpg"
     <a class="btn btn-primary btn-lg mt-3" href="task_form.php" role="button">Let's Start</a>
 </div>
 </div>
