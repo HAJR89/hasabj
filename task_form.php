@@ -38,12 +38,23 @@
 </div>
 
 <div class="content container">
-<div class="jumbotron text-center">
-    <h1 class="display-4">Manage your team &amp; everything with Daily Task</h1>
-    <p class="lead">Unlock your potential, unleash your productivity, and experience the joy of progress with our powerful Daily Task.</p>
-    <hr class="my-4">
-    <img src="todo.png" alt="To-Do Image" class="img-fluid">
-    <a class="btn btn-primary btn-lg mt-3" href="task_form.php" role="button">Let's Start</a>
+<div class="container mt-5">
+    <h2>Add New Task</h2>
+    <form action="task_submit.php" method="POST">
+        <div class="form-group">
+            <label for="taskName">Task Name</label>
+            <input type="text" class="form-control" id="taskName" name="taskName" required="">
+        </div>
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" id="description" name="description" rows="3" required=""></textarea>
+        </div>
+        <div class="form-group">
+            <label for="dueDate">Due Date</label>
+            <input type="date" class="form-control" id="dueDate" name="dueDate" required="">
+        </div>
+        <button type="submit" class="btn btn-primary">Add Task</button>
+    </form>
 </div>
 </div>
 
@@ -55,6 +66,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+
     </body>
 </html>
-   
